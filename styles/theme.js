@@ -14,13 +14,17 @@ const fluidType = (minFont, maxFont) => {
 }
 
 const colors = {
-  background: '#2E3047',
+  background: '#1B1B1E',
+  logoColor: '#D8DBE2',
+  navLinks: '#A9BCD0',
+  accentIntro: '#58A4B0',
+  textPrimary: '#F2F2F2',
+  textSecondary: '#A9BCD0',
+
   secondary: '#080808',
+  displayColor: '#58A4B0',
   complement: '#FA934F',
-  displayColor: '#ECECEC',
-  textPrimary: '#D1D5DB',
-  textSecondary: '#8F9094',
-  button1: '#3CCF91',
+  button1: '#1985A1',
   button2: '#F6A20E',
   button3: '#5132BF',
   borderColor: '#111111',
@@ -43,7 +47,7 @@ const breakpoints = createBreakpoints({
 const Link = {
   baseStyle: {
     color: '#3CCF91',
-    _hover: { color: '#F6A20E', textDecoration: 'none' },
+    _hover: { color: '#FF00FF', textDecoration: 'none' },
   },
 };
 

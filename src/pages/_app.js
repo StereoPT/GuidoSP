@@ -13,7 +13,7 @@ const GlobalStyle = ({ children }) => {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            background: #43455C;
+            background: #1B1B1E;
           }
           ::-webkit-scrollbar {
             width: 8px;
