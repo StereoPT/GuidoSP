@@ -1,4 +1,4 @@
-import { SimpleGrid, Stack, Flex, Heading, Text } from "@chakra-ui/react";
+import { SimpleGrid, Stack, Flex, Heading, Text, Box } from "@chakra-ui/react";
 
 function AboutMe() {
   return (
@@ -17,7 +17,9 @@ function AboutMe() {
           </Text>
         </Stack>
         <Flex alignItems="center" justifyContent="center" position="relative">
-          This is a Flex
+          <Box maxW={{ base: '300px', lg: '350px' }} maxH={{ base: '300px', lg: '350px' }}>
+            This is a Box
+          </Box>
         </Flex>
       </SimpleGrid>
     </>

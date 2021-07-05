@@ -20,7 +20,7 @@ const GlobalStyle = ({ children }) => {
             background: #080808;
           }
           ::-webkit-scrollbar-thumb {
-            background: #111111;
+            background: #A9BCD0;
             border-radius: 8px;
           }
         ` }
