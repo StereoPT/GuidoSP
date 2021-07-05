@@ -12,12 +12,13 @@ function ContactMe() {
           Contact Me
         </Heading>
         <Text fontSize="md" color="textSecondary" textAlign="center">
-          Some Text:{' '}
+          Currently open to work as a {' '}
           <chakra.span color="accentIntro" display={{ base: 'block', md: 'inline' }}>
-            This Cool Text.
+            {' '}
+            Developer  
           </chakra.span>
           <br />
-          And some more Text.
+          Get in touch and talk more about your Projects!
         </Text>
         <Stack isInline spacing={ 4 }>
           <Link href="https://www.linkedin.com/in/guidosp/" isExternal>

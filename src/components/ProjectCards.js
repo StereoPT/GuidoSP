@@ -4,8 +4,8 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 function ProjectCards({ title, description, imageURL, githubLink, deployLink }) {
 
   return (
-    <Stack bg="secondaryBackground" borderRadius="10px" minH="320px" maxH="500px" border="1px" borderColor={{ base: '#333', md: 'borderColor'}}>
-      <ScaleFade in={ true } transition={{ duration: 1}}>
+    <Stack bg="secondaryBackground" borderRadius="10px" minH="320px" maxH="800px" border="1px" borderColor={{ base: '#333', md: 'borderColor'}}>
+      <ScaleFade in={ true } transition={{ duration: 1 }}>
         <Image width={ 1250 } height={ 600 } w="auto" h="auto" src={ imageURL } transition="0.3s" borderRadius="10px 10px 0 0" alt="Project Image" />
         <Stack px={ 4 } py={ 2 }>
           <Stack isInline justifyContent="space-between" alignItems="center">

@@ -47,15 +47,21 @@ const breakpoints = createBreakpoints({
 
 const Link = {
   baseStyle: {
-    color: '#3CCF91',
-    _hover: { color: '#FF00FF', textDecoration: 'none' },
+    _hover: { color: '#58A4B0', textDecoration: 'none' },
   },
 };
+
+const Button = {
+  baseStyle: {
+    _hover: { color: '#58A4B0', background: '#373F51' },
+  },
+}
 
 const overrides = {
   ...chakraTheme,
   components: {
     Link,
+    Button,
   },
   config,
   colors,

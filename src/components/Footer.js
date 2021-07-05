@@ -2,7 +2,7 @@ import { chakra, Stack, Text } from '@chakra-ui/react';
 
 function Footer() {
   return (
-    <Stack alignItems="center" mt={ 10 } mb={ 5 }>
+    <Stack alignItems="center" mt={ 20 } mb={ 5 }>
       <Text textAlign="center" fontSize="sm" color="textSecondary">
         Built with {' '}
         <chakra.span fontWeight="semibold" color="accentIntro">

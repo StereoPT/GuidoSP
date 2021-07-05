@@ -11,7 +11,7 @@ import ContactMe from '../components/ContactMe';
 function Index() {
   return (
     <>
-      <Container>
+      <Container enableTransition={ true }>
         <Head>
           <title>GuidoSP | Front-end Developer</title>
         </Head>
