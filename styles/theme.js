@@ -15,6 +15,7 @@ const fluidType = (minFont, maxFont) => {
 
 const colors = {
   background: '#1B1B1E',
+  secondaryBackground: '#373F51',
   logoColor: '#D8DBE2',
   navLinks: '#A9BCD0',
   accentIntro: '#58A4B0',

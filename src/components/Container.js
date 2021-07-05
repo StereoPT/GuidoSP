@@ -1,14 +1,16 @@
 import { Flex } from '@chakra-ui/react';
 
 import Navbar from './Navbar';
+import Footer from './Footer';
 
-const Container = ({ children }) => {
+const Container = ({ enableTransition, children }) => {
   return (
     <>
-      <Navbar />
+      <Navbar enableTransition={ enableTransition } />
       <Flex as="main" justifyContent="center" flexDirection="column">
         { children }
       </Flex>
+      <Footer />
     </>
   );
 }
