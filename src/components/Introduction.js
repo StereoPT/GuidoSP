@@ -20,11 +20,11 @@ function Introduction() {
           </Heading>
         </SlideFade>
         <SlideFade direction="top" in={ true } transition={{ enter: { duration: 0.4, delay: 0.8 } }}>
-          <Heading color="textSecondary" fontSize="display2" fontWeight="medium" whiteSpace="pre-wrap" letterSpacing="-1.6px">
+          <Heading color="textSecondary" fontSize="display2" fontWeight="medium" whiteSpace="pre-wrap" letterSpacing="-1.5px">
             <Box color="textPrimary" as="span">
-              Software Developer
+              Software Developer |
             </Box>{' '}
-            Something something{' '}
+            I build, code & create applications.{' '}
           </Heading>
         </SlideFade>
         <SlideFade direction="top" in={ true } transition={{ enter: { duration: 0.4, delay: 0.9 } }}>

@@ -12,9 +12,12 @@ function AboutMe() {
             ⚡ About Me
           </Heading>
           <Text color="textSecondary" fontSize={{ base: '14px', md: '16px' }} whiteSpace="pre-line">
-            Hello everyone! I'm Guido Pereira and I've always been interested and passionate about computers.<br />
+            Hello everyone! I'm Guido Pereira and I've always been interested about computers.<br />
             <br />
-            Blah Blah Blah
+            I describe myself as a passionate developer who loves coding, open source, and the web.
+            Aside from my studies, I like to create and contribute to open source projects.
+            That helps me to learn a ton of new stuff and grow as a developer.<br />
+            I'm interested in building something awesome and automate tasks with code. Currently I'm focused in Web Development.
           </Text>
         </Stack>
         <Flex alignItems="center" justifyContent="center" position="relative">
